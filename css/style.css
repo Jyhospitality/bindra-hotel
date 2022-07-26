@@ -1544,7 +1544,7 @@ body .page-header {
   display: block;
   margin: 0;
   font-family: "Argesta Display";
-  font-size: 35px;
+  font-size: 18px;
 }
 .side-content p {
   width: 100%;
@@ -3421,7 +3421,7 @@ body .page-header {
   }
 
   .side-content h2 {
-    font-size: 38px;
+    font-size: 18px;
   }
 
   .carousel-image-box {
