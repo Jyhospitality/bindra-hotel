@@ -3337,7 +3337,7 @@ body .page-header {
 }
 .footer .bottom-bar {
   width: 100%;
-  display: flex;
+  /* display: flex; */
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 50px 0;
@@ -3929,4 +3929,50 @@ body .page-header {
     margin-left: 0;
     margin-right: 10px;
   }
+}
+
+/* *************   Social float start   ***************** */
+
+.social-float {
+  position: fixed;
+  top: 50%;
+  left: 0%;
+  transform: translatey(-50%);
+  background: var(--main-color);
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  z-index: 1111;
+  overflow: hidden;
+}
+
+.social-float-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-float-flex a {
+  padding: 7px 10px;
+  font-size: 24px;
+  color: var(--title-color);
+}
+
+.social-float-flex a:nth-child(1) {
+  background: #25D366;
+}
+
+.social-float-flex a:nth-child(2) {
+  background: #e4405f;
+}
+
+.social-float-flex a:nth-child(3) {
+  background: #3b5999;
+}
+
+.social-float-flex a:nth-child(4) {
+  background: #00c300;
+  font-size: 20px;
+}
+
+.social-float-flex a:last-child {
+  border: none;
 }
